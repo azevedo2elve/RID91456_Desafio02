@@ -8,6 +8,7 @@ html {
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
     line-height: 1.5;
+    color: #FFFF;
 }
 
 h1 {
@@ -17,6 +18,30 @@ h1 {
 
 header {
     background-color: #02A28F;
-    color: #fff;
     padding: 1.6rem 15.6rem;
+}
+
+main {
+    padding: 5.6rem 15.6rem;
+}
+
+#banner {
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent), 
+                url('/assets/banner-city.jpeg') center/cover no-repeat;
+    height: 40vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2.4rem;
+
+    h2 {
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
 }
