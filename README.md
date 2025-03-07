@@ -31,9 +31,11 @@ Trabalhando na **DNC Interactive**, fui encarregado de um projeto crucial: trans
 ---
 
 ## 📌 Objetivos do Desafio
-✅ Implementar um blog responsivo
-✅ Garantir uma boa experiência para diferentes dispositivos
-✅ Aplicar boas práticas de CSS e HTML
-✅ Manter a estrutura visual definida no Figma
+<ul>
+   <li>✅ Implementar um blog responsivo</li>
+   <li>✅ Garantir uma boa experiência para diferentes dispositivos</li>
+   <li>✅ Aplicar boas práticas de CSS e HTML</li>
+   <li>✅ Manter a estrutura visual definida no Figma</li>
+</ul>
 
 🚀 **Projeto desenvolvido como parte do desafio da Escola DNC.**
