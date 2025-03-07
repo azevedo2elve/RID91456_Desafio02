@@ -193,3 +193,11 @@ main {
     }
 
 }
+
+footer {
+    background-color: #02A28F;
+    padding: 1.7rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
