@@ -175,3 +175,21 @@ main {
     }
 }
 
+.container-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+
+    .card-category {
+        display: flex;
+        justify-content: space-between;
+        color: #616161;
+
+        h3, span {
+            font-size: 1.6rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+
+}
