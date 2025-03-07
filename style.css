@@ -33,6 +33,7 @@ main {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent), 
                 url('/assets/banner-city.jpeg') center/cover no-repeat;
     height: 100%;
+    width: 100%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -161,6 +162,12 @@ main {
                     color: #616161;
                 }
 
+                .date-card {
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    color: #616161;
+                }
+
                 h3 {
                     font-size: 2rem;
                     font-weight: 700;
@@ -200,4 +207,54 @@ footer {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    header {
+        padding: 2.5rem 1rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem 1rem;
+    }
+
+    .container-flex {
+        width: 100%;
+    }
+
+    .container-news {
+        order: 2;
+        .container-cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    #banner {
+        order: 1;
+        height: 67vh;
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+        }
+    }
+
+    #popular-posts {
+        order: 3;
+    }
+
+    #categories {
+        order: 4;
+    }
 }
