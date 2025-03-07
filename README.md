@@ -26,7 +26,7 @@ Trabalhando na **DNC Interactive**, fui encarregado de um projeto crucial: trans
 2. Abra o arquivo `index.html` diretamente no navegador ou utilize uma extensão como "Live Server" no VS Code para melhor experiência.
 
 ## 🔗 Link do Projeto
-[Acesse aqui](https://blogdevnews.netlify.app/) *(substitua pelo link do projeto quando estiver disponível)*
+[Acesse aqui](https://blogdevnews.netlify.app/)
 
 ---
 
