@@ -25,7 +25,7 @@ main {
     padding: 5.6rem 15.6rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-items: center;
+    align-items: start;
     gap: 2.4rem;
 }
 
@@ -99,7 +99,7 @@ main {
     }
 }
 
-#container-news {
+.container-news {
     display: flex;
     flex-direction: column;
 
@@ -174,3 +174,4 @@ main {
         }
     }
 }
+
